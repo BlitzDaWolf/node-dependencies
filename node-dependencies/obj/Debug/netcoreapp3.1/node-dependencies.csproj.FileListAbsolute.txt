@@ -1,0 +1,13 @@
+D:\dev\node-dependencies\node-dependencies\bin\Debug\netcoreapp3.1\node-dependencies.exe
+D:\dev\node-dependencies\node-dependencies\bin\Debug\netcoreapp3.1\node-dependencies.deps.json
+D:\dev\node-dependencies\node-dependencies\bin\Debug\netcoreapp3.1\node-dependencies.runtimeconfig.json
+D:\dev\node-dependencies\node-dependencies\bin\Debug\netcoreapp3.1\node-dependencies.runtimeconfig.dev.json
+D:\dev\node-dependencies\node-dependencies\bin\Debug\netcoreapp3.1\node-dependencies.dll
+D:\dev\node-dependencies\node-dependencies\bin\Debug\netcoreapp3.1\node-dependencies.pdb
+D:\dev\node-dependencies\node-dependencies\obj\Debug\netcoreapp3.1\node-dependencies.csprojAssemblyReference.cache
+D:\dev\node-dependencies\node-dependencies\obj\Debug\netcoreapp3.1\node-dependencies.AssemblyInfoInputs.cache
+D:\dev\node-dependencies\node-dependencies\obj\Debug\netcoreapp3.1\node-dependencies.AssemblyInfo.cs
+D:\dev\node-dependencies\node-dependencies\obj\Debug\netcoreapp3.1\node-dependencies.csproj.CoreCompileInputs.cache
+D:\dev\node-dependencies\node-dependencies\obj\Debug\netcoreapp3.1\node-dependencies.dll
+D:\dev\node-dependencies\node-dependencies\obj\Debug\netcoreapp3.1\node-dependencies.pdb
+D:\dev\node-dependencies\node-dependencies\obj\Debug\netcoreapp3.1\node-dependencies.genruntimeconfig.cache
