@@ -12,10 +12,12 @@ namespace node_dependencies
 
         private List<Item> items = new List<Item>();
         public List<Item> Items { get => items; }
+        public Item RootTiem { get; private set; }
 
         public Finder()
         {
             items = new List<Item>();
+            RootTiem = new Item("Root") { Name = "Root" };
         }
 
         public void Search(string path)
@@ -65,14 +67,21 @@ namespace node_dependencies
             {
                 e.FindDependencies(this);
             });
+
+            var r = items.OrderBy(e => e.Dependencies.Count).Where(e => e.DependsOn.Count != 0);
+            r.ToList().ForEach(e => {
+                RootTiem.DependsOn.Add(e);
+                e.Dependencies.Add(RootTiem);
+             });
         }
 
         public void PrintForward(bool showzero = false)
         {
-            var show = (showzero) ? -1 : 0;
+            RootTiem.PrintForward();
+            /*var show = (showzero) ? -1 : 0;
 
             var r = items.OrderBy(e => e.Dependencies.Count).Where(e => e.DependsOn.Count != show);
-            r.ToList().ForEach(e => e.PrintForward());
+            r.ToList().ForEach(e => e.PrintForward());*/
         }
 
         public void PrintBackward(bool showzero = false)

@@ -12,7 +12,7 @@ namespace node_dependencies
             Finder f = new Finder();
             f.Search(BasePath);
 
-            f.PrintForward(false);
+            f.PrintBackward(false);
         }
     }
 }
